@@ -91,6 +91,47 @@ header nav {
 .aboutus2 h2 {
   padding-bottom: 1.5rem;
 }
+.services {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  gap: 6rem;
+  padding: 2rem 1.5rem;
+}
+
+.services1 {
+}
+.services1section {
+}
+
+.services2 {
+  background-color: #35424a;
+  color: white;
+  padding: 2rem;
+  height: 80%;
+}
+textarea {
+  resize: none;
+  width: fit-content;
+  height: 4rem;
+  margin-top: 4rem;
+}
+
+form {
+  padding: 0.5rem;
+}
+
+form input,
+form textarea {
+  margin: 0.5rem 1rem 1rem 0.5rem;
+  width: 90%;
+  padding: 0.2rem 0.5rem;
+}
+
+form input {
+  height: 1.5rem;
+  margin-top: 0.5rem;
+}
+
 .subscribe {
   color: white;
   background-color: #35424a;
@@ -113,6 +154,8 @@ header nav {
   border-radius: 0.6rem;
   margin-right: 1.1rem;
   cursor: pointer;
+  width: auto;
+  height: auto;
 }
 
 .info {
