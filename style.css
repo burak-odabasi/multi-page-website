@@ -96,18 +96,27 @@ header nav {
   grid-template-columns: 3fr 1.5fr;
   gap: 6rem;
   padding: 2rem 1.5rem;
+  max-height: 60vh;
 }
 
 .services1 {
+  display: grid;
+  gap: 9px;
 }
 .services1section {
+  background-color: #c1c0c06d;
+  border: 1px solid rgba(128, 128, 128, 0.434);
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-height: 130px;
 }
 
 .services2 {
   background-color: #35424a;
   color: white;
   padding: 2rem;
-  height: 80%;
+  height: 60%;
 }
 textarea {
   resize: none;
