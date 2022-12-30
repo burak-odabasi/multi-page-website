@@ -59,6 +59,38 @@ header nav {
   align-self: center;
   margin-top: -6rem;
 }
+.aboutus {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  gap: 3rem;
+  padding: 2rem 1.5rem;
+}
+.aboutus1 {
+  display: grid;
+}
+.aboutus1top {
+  display: grid;
+  margin-bottom: 2rem;
+  padding: 0rem 2rem;
+}
+.aboutus1top h2 {
+  padding-bottom: 1.5rem;
+}
+.aboutus1bottom {
+  display: grid;
+  background-color: #35424a;
+  color: white;
+  padding: 2rem 2rem;
+}
+.aboutus2 {
+  background-color: #35424a;
+  color: white;
+  padding: 2rem;
+  height: 60%;
+}
+.aboutus2 h2 {
+  padding-bottom: 1.5rem;
+}
 .subscribe {
   color: white;
   background-color: #35424a;
