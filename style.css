@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: cursive;
+}
+body {
+  background-color: rgba(220, 220, 220, 0.217);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+}
+a:hover {
+  text-decoration: none;
+  color: #de3b78;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #35424a;
+  color: white;
+  height: 8vh;
+  padding: 0.3rem 1rem;
+  border-bottom: 3px solid #f3781f;
+}
+#title {
+  color: #f3781f;
+}
+#title2 {
+  color: #de3b78;
+}
+header h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+header nav {
+}
+.banner {
+  background-image: url(./images/showcase.jpg);
+  height: 40vh;
+  background-position: center;
+  color: white;
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+}
+.banner h1 {
+  align-self: center;
+  margin-bottom: -8rem;
+}
+.banner p {
+  align-self: center;
+  margin-top: -6rem;
+}
+.subscribe {
+  color: white;
+  background-color: #35424a;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+#email {
+  padding: 0.5rem 0.4rem;
+  margin-right: 0.5rem;
+}
+#submit {
+  color: white;
+  background-color: #de3b78;
+  padding: 0.8rem 1.3rem;
+  border: 0;
+  border-radius: 0.6rem;
+  margin-right: 1.1rem;
+  cursor: pointer;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 30vh;
+}
+
+.img1 {
+  /* border: 2px solid orange; */
+  display: grid;
+  align-items: end;
+  padding-top: 1.5rem;
+}
+.writing {
+  padding: 0rem 5rem;
+  text-align: center;
+}
+.html1 {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr;
+  place-items: center;
+  max-height: 400px;
+}
+.css1 {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr;
+  max-height: 400px;
+  place-items: center;
+  max-height: 400px;
+}
+.graphic1 {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr;
+  place-items: center;
+  max-height: 400px;
+}
+
+footer {
+  background-color: #35424a;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding-top: 0.3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
