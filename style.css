@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 body {
   background-color: rgba(220, 220, 220, 0.217);
@@ -25,7 +25,7 @@ header {
 
   background-color: #35424a;
   color: white;
-  height: 8vh;
+  height: 10vh;
   padding: 0.3rem 1rem;
   border-bottom: 3px solid #f3781f;
 }
@@ -36,7 +36,7 @@ header {
   color: #de3b78;
 }
 header h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -50,12 +50,14 @@ header h1 {
   place-items: center;
 }
 .banner h1 {
-  align-self: center;
-  margin-bottom: -8rem;
+  align-self: end;
+  /* margin-bottom: -8rem; */
 }
 .banner p {
   align-self: center;
-  margin-top: -6rem;
+  padding: 0px 75px;
+  text-align: center;
+  /* margin-top: -6rem; */
 }
 .aboutus {
   display: grid;
@@ -144,7 +146,7 @@ form input {
   background-color: #35424a;
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  height: 7vh;
   align-items: center;
   padding-left: 2rem;
   font-size: 1.5rem;
@@ -169,7 +171,7 @@ form input {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  height: 30vh;
+  height: 33vh;
 }
 
 .img1 {
@@ -179,7 +181,7 @@ form input {
   padding-top: 1.5rem;
 }
 .writing {
-  padding: 0rem 5rem;
+  padding: 0rem 3rem;
   text-align: center;
 }
 .html1 {
