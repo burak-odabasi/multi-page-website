@@ -55,8 +55,9 @@ header h1 {
 }
 .banner p {
   align-self: center;
-  padding: 0px 75px;
+  padding: 0px 75px 55px;
   text-align: center;
+  font-size: 1.4rem;
   /* margin-top: -6rem; */
 }
 .aboutus {
