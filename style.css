@@ -107,17 +107,17 @@ header h1 {
 .services1section {
   background-color: #c1c0c06d;
   border: 1px solid rgba(128, 128, 128, 0.434);
-  padding: 2rem;
+  padding: 1rem 2rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  max-height: 130px;
+  grid-template-rows: 1.5fr 3.2fr 1fr;
+  max-height: 110px;
 }
 
 .services2 {
   background-color: #35424a;
   color: white;
   padding: 2rem;
-  height: 60%;
+  height: 72.5%;
 }
 textarea {
   resize: none;
